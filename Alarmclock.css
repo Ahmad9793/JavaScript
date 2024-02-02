@@ -1,0 +1,98 @@
+body { 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+}
+
+
+#current-time{
+    font-size: 3.5em;
+    color:#000000;
+    font-family:serif;
+}
+  .set-Alarm {
+    color: #000000;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+#stop{
+  background-color: rgb(138, 58, 58);
+}
+  
+  .user-input {
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  input {
+    max-width: 10%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #3f3b36;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f5d7a0;
+    color: #0c0c0c;
+    font-weight: bold;
+    position: relative;
+    left: 1%;
+  }
+  
+  .user-input .button button {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #1f1202;
+    border-radius: 5px;
+    background-color: #8fff0f33;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .user-input .button button:hover {
+    background-color: #f5e1cb;
+  }
+  
+  .set-alarm-list {
+    /* list-style: none; */
+    padding: 0;
+  }
+  
+  .set-alarm-list li {
+    background-color: #e5d4bb;
+    color: #3f3b36;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the alarm time in the list */
+  .set-alarm-list .time {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the delete button in the list */
+  .set-alarm-list .deleteAlarm {
+    background-color: #9e2a2b;
+    color: #fff;
+    border: 2px solid #9e2a2b;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#am-pm{
+  max-width: 10%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #3f3b36;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f5d7a0;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  left: 2%;
+}
